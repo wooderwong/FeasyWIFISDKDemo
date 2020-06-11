@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  FeasyWIFISDKDemo
+//
+//  Created by BDKid on 2020/6/11.
+//  Copyright © 2020 BDKid. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+

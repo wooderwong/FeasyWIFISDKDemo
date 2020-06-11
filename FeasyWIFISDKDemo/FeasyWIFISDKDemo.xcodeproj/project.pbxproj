@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D99EBDA2491C1CB0046C5F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99EBD92491C1CB0046C5F0 /* AppDelegate.m */; };
+		7D99EBDD2491C1CB0046C5F0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99EBDC2491C1CB0046C5F0 /* SceneDelegate.m */; };
+		7D99EBE02491C1CB0046C5F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99EBDF2491C1CB0046C5F0 /* ViewController.m */; };
+		7D99EBE32491C1CB0046C5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D99EBE12491C1CB0046C5F0 /* Main.storyboard */; };
+		7D99EBE52491C1CC0046C5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D99EBE42491C1CC0046C5F0 /* Assets.xcassets */; };
+		7D99EBE82491C1CC0046C5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D99EBE62491C1CC0046C5F0 /* LaunchScreen.storyboard */; };
+		7D99EBEB2491C1CC0046C5F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99EBEA2491C1CC0046C5F0 /* main.m */; };
+		7D99EBF52491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99EBF42491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.m */; };
+		7D99EC002491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D99EBFF2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.m */; };
+		7D99EC122491C2E80046C5F0 /* FeasyWIFISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D99EC112491C2E80046C5F0 /* FeasyWIFISDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D99EBF12491C1CC0046C5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D99EBCD2491C1CB0046C5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D99EBD42491C1CB0046C5F0;
+			remoteInfo = FeasyWIFISDKDemo;
+		};
+		7D99EBFC2491C1CC0046C5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D99EBCD2491C1CB0046C5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D99EBD42491C1CB0046C5F0;
+			remoteInfo = FeasyWIFISDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D99EBD52491C1CB0046C5F0 /* FeasyWIFISDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeasyWIFISDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D99EBD82491C1CB0046C5F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D99EBD92491C1CB0046C5F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D99EBDB2491C1CB0046C5F0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7D99EBDC2491C1CB0046C5F0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7D99EBDE2491C1CB0046C5F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D99EBDF2491C1CB0046C5F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D99EBE22491C1CB0046C5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D99EBE42491C1CC0046C5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D99EBE72491C1CC0046C5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D99EBE92491C1CC0046C5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D99EBEA2491C1CC0046C5F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D99EBF02491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeasyWIFISDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D99EBF42491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeasyWIFISDKDemoTests.m; sourceTree = "<group>"; };
+		7D99EBF62491C1CC0046C5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D99EBFB2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeasyWIFISDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D99EBFF2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeasyWIFISDKDemoUITests.m; sourceTree = "<group>"; };
+		7D99EC012491C1CC0046C5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D99EC112491C2E80046C5F0 /* FeasyWIFISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FeasyWIFISDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D99EBD22491C1CB0046C5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D99EC122491C2E80046C5F0 /* FeasyWIFISDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D99EBED2491C1CC0046C5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D99EBF82491C1CC0046C5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D99EBCC2491C1CB0046C5F0 = {
+			isa = PBXGroup;
+			children = (
+				7D99EBD72491C1CB0046C5F0 /* FeasyWIFISDKDemo */,
+				7D99EBF32491C1CC0046C5F0 /* FeasyWIFISDKDemoTests */,
+				7D99EBFE2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests */,
+				7D99EBD62491C1CB0046C5F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D99EBD62491C1CB0046C5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D99EBD52491C1CB0046C5F0 /* FeasyWIFISDKDemo.app */,
+				7D99EBF02491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.xctest */,
+				7D99EBFB2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D99EBD72491C1CB0046C5F0 /* FeasyWIFISDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D99EBD82491C1CB0046C5F0 /* AppDelegate.h */,
+				7D99EBD92491C1CB0046C5F0 /* AppDelegate.m */,
+				7D99EBDB2491C1CB0046C5F0 /* SceneDelegate.h */,
+				7D99EBDC2491C1CB0046C5F0 /* SceneDelegate.m */,
+				7D99EBDE2491C1CB0046C5F0 /* ViewController.h */,
+				7D99EBDF2491C1CB0046C5F0 /* ViewController.m */,
+				7D99EBE12491C1CB0046C5F0 /* Main.storyboard */,
+				7D99EC112491C2E80046C5F0 /* FeasyWIFISDK.framework */,
+				7D99EBE42491C1CC0046C5F0 /* Assets.xcassets */,
+				7D99EBE62491C1CC0046C5F0 /* LaunchScreen.storyboard */,
+				7D99EBE92491C1CC0046C5F0 /* Info.plist */,
+				7D99EBEA2491C1CC0046C5F0 /* main.m */,
+			);
+			path = FeasyWIFISDKDemo;
+			sourceTree = "<group>";
+		};
+		7D99EBF32491C1CC0046C5F0 /* FeasyWIFISDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D99EBF42491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.m */,
+				7D99EBF62491C1CC0046C5F0 /* Info.plist */,
+			);
+			path = FeasyWIFISDKDemoTests;
+			sourceTree = "<group>";
+		};
+		7D99EBFE2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D99EBFF2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.m */,
+				7D99EC012491C1CC0046C5F0 /* Info.plist */,
+			);
+			path = FeasyWIFISDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D99EBD42491C1CB0046C5F0 /* FeasyWIFISDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D99EC042491C1CC0046C5F0 /* Build configuration list for PBXNativeTarget "FeasyWIFISDKDemo" */;
+			buildPhases = (
+				7D99EBD12491C1CB0046C5F0 /* Sources */,
+				7D99EBD22491C1CB0046C5F0 /* Frameworks */,
+				7D99EBD32491C1CB0046C5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeasyWIFISDKDemo;
+			productName = FeasyWIFISDKDemo;
+			productReference = 7D99EBD52491C1CB0046C5F0 /* FeasyWIFISDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D99EBEF2491C1CC0046C5F0 /* FeasyWIFISDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D99EC072491C1CC0046C5F0 /* Build configuration list for PBXNativeTarget "FeasyWIFISDKDemoTests" */;
+			buildPhases = (
+				7D99EBEC2491C1CC0046C5F0 /* Sources */,
+				7D99EBED2491C1CC0046C5F0 /* Frameworks */,
+				7D99EBEE2491C1CC0046C5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D99EBF22491C1CC0046C5F0 /* PBXTargetDependency */,
+			);
+			name = FeasyWIFISDKDemoTests;
+			productName = FeasyWIFISDKDemoTests;
+			productReference = 7D99EBF02491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D99EBFA2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D99EC0A2491C1CC0046C5F0 /* Build configuration list for PBXNativeTarget "FeasyWIFISDKDemoUITests" */;
+			buildPhases = (
+				7D99EBF72491C1CC0046C5F0 /* Sources */,
+				7D99EBF82491C1CC0046C5F0 /* Frameworks */,
+				7D99EBF92491C1CC0046C5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D99EBFD2491C1CC0046C5F0 /* PBXTargetDependency */,
+			);
+			name = FeasyWIFISDKDemoUITests;
+			productName = FeasyWIFISDKDemoUITests;
+			productReference = 7D99EBFB2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D99EBCD2491C1CB0046C5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = BDKid;
+				TargetAttributes = {
+					7D99EBD42491C1CB0046C5F0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7D99EBEF2491C1CC0046C5F0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7D99EBD42491C1CB0046C5F0;
+					};
+					7D99EBFA2491C1CC0046C5F0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7D99EBD42491C1CB0046C5F0;
+					};
+				};
+			};
+			buildConfigurationList = 7D99EBD02491C1CB0046C5F0 /* Build configuration list for PBXProject "FeasyWIFISDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D99EBCC2491C1CB0046C5F0;
+			productRefGroup = 7D99EBD62491C1CB0046C5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D99EBD42491C1CB0046C5F0 /* FeasyWIFISDKDemo */,
+				7D99EBEF2491C1CC0046C5F0 /* FeasyWIFISDKDemoTests */,
+				7D99EBFA2491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D99EBD32491C1CB0046C5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D99EBE82491C1CC0046C5F0 /* LaunchScreen.storyboard in Resources */,
+				7D99EBE52491C1CC0046C5F0 /* Assets.xcassets in Resources */,
+				7D99EBE32491C1CB0046C5F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D99EBEE2491C1CC0046C5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D99EBF92491C1CC0046C5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D99EBD12491C1CB0046C5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D99EBE02491C1CB0046C5F0 /* ViewController.m in Sources */,
+				7D99EBDA2491C1CB0046C5F0 /* AppDelegate.m in Sources */,
+				7D99EBEB2491C1CC0046C5F0 /* main.m in Sources */,
+				7D99EBDD2491C1CB0046C5F0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D99EBEC2491C1CC0046C5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D99EBF52491C1CC0046C5F0 /* FeasyWIFISDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D99EBF72491C1CC0046C5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D99EC002491C1CC0046C5F0 /* FeasyWIFISDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D99EBF22491C1CC0046C5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D99EBD42491C1CB0046C5F0 /* FeasyWIFISDKDemo */;
+			targetProxy = 7D99EBF12491C1CC0046C5F0 /* PBXContainerItemProxy */;
+		};
+		7D99EBFD2491C1CC0046C5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D99EBD42491C1CB0046C5F0 /* FeasyWIFISDKDemo */;
+			targetProxy = 7D99EBFC2491C1CC0046C5F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D99EBE12491C1CB0046C5F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D99EBE22491C1CB0046C5F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D99EBE62491C1CC0046C5F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D99EBE72491C1CC0046C5F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D99EC022491C1CC0046C5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D99EC032491C1CC0046C5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D99EC052491C1CC0046C5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD8DUAZ443;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeasyWIFISDKDemo",
+				);
+				INFOPLIST_FILE = FeasyWIFISDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BDKid.FeasyWIFISDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D99EC062491C1CC0046C5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD8DUAZ443;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeasyWIFISDKDemo",
+				);
+				INFOPLIST_FILE = FeasyWIFISDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BDKid.FeasyWIFISDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D99EC082491C1CC0046C5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD8DUAZ443;
+				INFOPLIST_FILE = FeasyWIFISDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BDKid.FeasyWIFISDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeasyWIFISDKDemo.app/FeasyWIFISDKDemo";
+			};
+			name = Debug;
+		};
+		7D99EC092491C1CC0046C5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD8DUAZ443;
+				INFOPLIST_FILE = FeasyWIFISDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BDKid.FeasyWIFISDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeasyWIFISDKDemo.app/FeasyWIFISDKDemo";
+			};
+			name = Release;
+		};
+		7D99EC0B2491C1CC0046C5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD8DUAZ443;
+				INFOPLIST_FILE = FeasyWIFISDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BDKid.FeasyWIFISDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeasyWIFISDKDemo;
+			};
+			name = Debug;
+		};
+		7D99EC0C2491C1CC0046C5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD8DUAZ443;
+				INFOPLIST_FILE = FeasyWIFISDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BDKid.FeasyWIFISDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeasyWIFISDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D99EBD02491C1CB0046C5F0 /* Build configuration list for PBXProject "FeasyWIFISDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D99EC022491C1CC0046C5F0 /* Debug */,
+				7D99EC032491C1CC0046C5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D99EC042491C1CC0046C5F0 /* Build configuration list for PBXNativeTarget "FeasyWIFISDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D99EC052491C1CC0046C5F0 /* Debug */,
+				7D99EC062491C1CC0046C5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D99EC072491C1CC0046C5F0 /* Build configuration list for PBXNativeTarget "FeasyWIFISDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D99EC082491C1CC0046C5F0 /* Debug */,
+				7D99EC092491C1CC0046C5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D99EC0A2491C1CC0046C5F0 /* Build configuration list for PBXNativeTarget "FeasyWIFISDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D99EC0B2491C1CC0046C5F0 /* Debug */,
+				7D99EC0C2491C1CC0046C5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D99EBCD2491C1CB0046C5F0 /* Project object */;
+}

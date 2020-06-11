@@ -1,0 +1,6 @@
+framework module FeasyWIFISDK {
+  umbrella header "FeasyWIFISDK.h"
+
+  export *
+  module * { export * }
+}
